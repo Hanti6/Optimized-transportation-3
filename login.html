@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("images/passenger-plane-ready-to-take-off-airport-runways-use-tra-traveling-cargo-air-transport-business-46937433.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            width: 300px;
+            background-color: blue;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .input-label {
+            color: black;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: maroon;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .button-container button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="input-label">Username</h2>
+        <input type="text" class="input-field" placeholder="Enter your username">
+        
+        <h2 class="input-label">Password</h2>
+        <input type="password" class="input-field" placeholder="Enter your password">
+        
+        <div class="button-container">
+            <button class="login-button" onclick="window.location.href = 'service.html';">Login</button>
+        </div>
+    </div>
+</body>
+</html>
+
+

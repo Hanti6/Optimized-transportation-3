@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url("images/20151229190117-road-commercial-vehicle-company-truck-car-driving-transporter-transportation-cargo-highway-business-delivery-.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .input-box {
+            width: 300px;
+            background-color: rgb(237, 237, 250);
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .input-label {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 5px;
+            font-size: 14px;
+            color: white;
+            background-color: rgb(208, 208, 224);
+            border: none;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .book-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: maroon;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>You can book our services below:</h2>
+        <div class="input-box">
+            <label for="transportation" class="input-label">Type of Transportation:</label>
+            <input type="text" id="transportation" class="input-field" placeholder="Enter type of transportation">
+        </div>
+        <div class="input-box">
+            <label for="goods" class="input-label">Type of Goods:</label>
+            <input type="text" id="goods" class="input-field" placeholder="Enter type of goods">
+        </div>
+        <div class="input-box">
+            <label for="from" class="input-label">Destination From:</label>
+            <input type="text" id="from" class="input-field" placeholder="Enter destination from">
+        </div>
+        <div class="input-box">
+            <label for="to" class="input-label">Destination To:</label>
+            <input type="text" id="to" class="input-field" placeholder="Enter destination to">
+        </div>
+        <div class="button-container">
+            <button class="book-button" onclick="window.location.href = 'payment.html';">Book Service</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
